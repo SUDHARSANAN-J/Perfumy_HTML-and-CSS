@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1 class="head">Perfumy</h1>
+        <ul>
+            <li>Home |</li>
+            <li>Products |</li>
+            <li><a href="About_us.html">About Us |</a></li>
+            <li id="contact">Contact |</li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="align">
+        <input type="text" placeholder="Search">
+    </div>
+
+    <div class="products">
+        <div class="box">
+            <img src="Pictures/11photo-1594035910387-fea47794261f.avif"><br>
+            <p>a delicately floral (rose, jasmine and ylang ylang) heart covers a subtly woody, musk base of cedar wood, sandalwood and oakmoss</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/12photo-1610461888750-10bfc601b874.avif"><br>
+            <p>The Commander and Intensio are popular choices among several men. The Czar and Sultan variant of the Fogg scent flatters men .</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/10photo-1599342166997-58552e91d9f5.avif"><br>
+            <p>Intense Aquatic Notes With Hints Of White Musk Keep You Ready For The Hustle, While The Zesty Fragrance Of Fresh Bergamot</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/9photo-1618478441890-8d4e722fe882.avif"><br>
+            <p>Warm and inviting, Mystic Amber blends cardamom and clove with amber, sandalwood, vanilla, and patchouli for a sultry, scent.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/8photo-1626017274727-417db9520bd1.avif"><br>
+            <p>Eternal Blossom captures a timeless garden with fresh bergamot and pear, floral notes of rose and jasmine, musk-cedarwood base.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/7photo-1595389294696-ae969ff733a8.avif"><br>
+            <p>Dive into Ocean Breeze, an invigorating aquatic fragrance with sea salt, lemon, water lily, driftwood, musk, and ambergris.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/6photo-1572577515722-f9d7ec0d5daa.avif"><br>
+            <p>Velvet Noir exudes sophistication with enticing blackcurrant and pink pepper, floral rose and iris, and mysterious oud, leather. </p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/5photo-1608528577891-eb055944f2e7.avif"><br>
+            <p>Citrus Sunshine bursts with energy, combining zesty orange and lemon, neroli and jasmine, and a clean finish of white musk and cedarwood.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/4photo-1611242956059-53e4c29e6b22.avif"><br>
+            <p> Indulge in Gourmand Delight, a sweet blend of caramel and vanilla with praline, almond, tonka bean, and sandalwood for a cozy fragrance.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/3photo-1563170351-be82bc888aa4.avif"><br>
+            <p>Wild Forest transports you to nature with earthy pine and eucalyptus, cedarwood, vetiver, oakmoss, amber, and musk for a tranquil scent.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/2photo-1547887537-6158d64c35b3.avif"><br>
+            <p>Exotic Paradise offers a tropical escape with bright pineapple and passionfruit, floral frangipani, hibiscus, and a creamy finish of coconut milk.</p>
+        </div>
+
+        <div class="box">
+            <img src="Pictures/1photo-1592945403244-b3fbafd7f539.avif"><br>
+            <p>Elegant Iris is a sophisticated fragrance with fresh bergamot and violet leaves, floral iris and heliotrope, a smooth base of vanilla and sandalwood.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="popup">
+        <div class="popup_contact">
+            <h2>Submit the details for queries</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Address">
+                <textarea placeholder="Comments"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bottom2">
+            <h1>Thanks for Visiting our site</h1><br><br>
+            <h3><b>Address :</b> Anna Nagar, Chennai, India</h3>
+            <h3><b>Contact :</b> +91 8245678234</h3>
+        </div>
+    </div>
+    
+</body>
+
+<script>
+    var contact_us = document.querySelector("#contact")
+    var popup1 = document.querySelector(".popup")
+    var popup_contact1 = document.querySelector(".popup_contact")
+
+    contact_us.addEventListener("click",function(){
+        popup1.style.display = "block"
+        popup_contact1.style.display = "block"
+    })
+
+</script>
+
+</html>

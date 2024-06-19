@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+}
+
+ul,li,h1{
+    display: inline;
+}
+
+.head{
+    margin-left: 5%;
+    margin-right: 65%;
+    font-size: 40px;
+
+}
+
+li:hover{
+    color: grey;
+}
+
+input{
+    width: 90%;
+    margin-left: 15px;
+    padding:15px;
+
+}
+
+.align{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box{
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    margin: 40px;
+    padding: 10px;
+}
+
+img{
+    max-width: 220px;
+    height: 350px;
+    
+}
+
+.products{
+    text-align: center;
+
+}
+
+.products p:hover{
+    color: white;
+    background-color: black;
+
+}
+
+
+.About h1{
+    margin-left: 7%;
+}
+
+.About h2{
+   margin-top: 25px;
+   margin-left: 10%;
+   text-align: justify;
+} 
+
+.About p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.popup{
+    background-color: black;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    
+}
+
+.popup_contact{
+    background-color: rgb(115, 105, 105);
+    color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+
+}
+
+.popup_contact h2{
+    margin-bottom: 15px;
+}
+
+.popup_contact input{
+    background: transparent;
+    width: 90%;
+    border-radius: 15px;
+    border: solid;
+    border-width: px;
+    margin-bottom: 20px ;
+    position: relative;
+    right: 10px;
+}
+
+.popup_contact textarea{
+    width: 100%;
+    border: solid;
+    background: transparent;
+    border-radius: 15px;
+    position: relative;
+    left: 5px;
+    right: 8px;
+    max-width: 92%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.popup_contact button{
+    background: transparent;
+    color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    left: 80%;
+}
+
+.popup_contact textarea::placeholder{
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+}
+
+.popup_contact input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+
+}
+
+.popup_contact input{
+    color: aliceblue;
+    border-color: black;
+    font-size: larger;
+}
+
+.popup_contact textarea{
+    color: aliceblue;
+    border-color: black;
+    font-size: x-large;
+}
+
+.bottom{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.bottom2{
+    text-align: center;
+}                                       /* End of styling the Home.html */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.head_div{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.below{
+    padding: 30px;
+}
+
+.dd h2{
+    background-color: rgb(71, 190, 211);
+    border-radius: 25px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.dd{
+    border: solid;
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px;
+    border-color: rgb(142, 151, 153);
+    border-radius: 10px;
+}
+
+dt{
+    padding-left: 10px;
+    margin: 8px;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+dd{
+    font-size: large;
+    padding-left: 40px;
+}
+
